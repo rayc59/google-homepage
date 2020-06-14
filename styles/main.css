@@ -1,0 +1,103 @@
+.logo {
+    margin-top: 200px;
+    text-align: center;
+}
+.search {
+    margin-top: 30px;
+    text-align: center;
+}
+.search-buttons{
+    color: rgb(90, 90, 90); 
+    padding: 10px;
+    margin-top: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px;
+}
+#searchbar {
+    border-radius: 40px;
+    border: 1px solid rgb(200, 200, 200);
+    height: 40px;
+    width: 620px;
+}
+ul {
+    list-style-type: none;
+}
+
+.left {
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+}
+.about {
+    color: #000;
+}
+
+.images {
+    color: #000;
+}
+.right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+}
+
+.store {
+    padding: 15px;
+    color: #000;
+}
+
+.gmail {
+    padding: 15px;
+    color: #000;
+}
+
+.left2 {
+    position: absolute;
+    display: flex;
+    margin: 20px;
+
+
+}
+
+.advertising {
+    padding: 15px;
+    color: rgb(88, 88, 88);
+}
+
+.business {
+    padding: 15px;
+    color: rgb(88, 88, 88);
+}
+
+.how {
+    padding: 15px;
+    color: rgb(88, 88, 88);
+}
+
+footer {
+    background: rgb(231, 231, 231);
+    border-top: 1px solid rgb(199, 199, 199);
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    height: 40px;
+  line-height: 2px;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+footer > nav {
+    display: flex;
+    justify-content: space-between;
+}
